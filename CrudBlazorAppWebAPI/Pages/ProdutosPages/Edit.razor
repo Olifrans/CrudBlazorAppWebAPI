@@ -1,0 +1,49 @@
+﻿@page "/ProdutosPages/Edit/{Id:int}"
+@using CrudBlazorAppWebAPI.Models
+@inject HttpClient Http
+@inject  NavigationManager navigation
+
+<h3>Editar Produtos</h3>
+
+<EditForm Model="@produtos" OnInvalidSubmit="@EditProdutos">
+    <DataAnnotationsValidator />
+
+    <div class="row">
+        <div class="col-6">
+
+            <div class="form-group">
+                <label>Nome</label>
+                <InputText class="form-control" @bind-Value="produtos.Nome"></InputText>
+                <ValidationMessage For="@(()=>produtos.Nome)" />
+            </div>
+
+            <div class="form-group">
+                <label>Tipo</label>
+                <InputText class="form-control" @bind-Value="produtos.Tipo"></InputText>
+                <ValidationMessage For="@(()=>produtos.Tipo)" />
+            </div>
+            <button type="submit" class="btn btn-info">Update-Atualizar</button>
+
+        </div>
+
+    </div>
+</EditForm>
+
+
+@code {
+    [Parameter]
+    public int Id { get; set; }
+    Produtos produtos = new Produtos();
+
+    protected override async Task OnInitializedAsync()
+    {
+        produtos = await Http.GetFromJsonAsync<Produtos>("https://localhost:44309/api/Produtos/GetById?id=" + Id);
+    }
+
+    async Task EditProdutos()
+    {
+        produtos.Id = Id;
+        var data = await Http.PutAsJsonAsync<Produtos>("https://localhost:44309/api/Produtos/Update", produtos);
+        navigation.NavigateTo("produtospages/produtoslist");
+    }
+}
