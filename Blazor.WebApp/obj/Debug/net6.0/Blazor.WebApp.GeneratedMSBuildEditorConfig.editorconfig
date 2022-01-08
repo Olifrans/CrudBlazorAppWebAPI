@@ -1,0 +1,59 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = browser
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = true
+build_property.IncludeAllContentForSelfExtract = 
+build_property.RootNamespace = Blazor.WebApp
+build_property.RootNamespace = Blazor.WebApp
+build_property.ProjectDir = C:\Workspace\Arrumando Pro GitHub\CrudBlazorAppWebAPI\Blazor.WebApp\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Workspace\Arrumando Pro GitHub\CrudBlazorAppWebAPI\Blazor.WebApp
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Workspace/Arrumando Pro GitHub/CrudBlazorAppWebAPI/Blazor.WebApp/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Workspace/Arrumando Pro GitHub/CrudBlazorAppWebAPI/Blazor.WebApp/Pages/FetchData.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Workspace/Arrumando Pro GitHub/CrudBlazorAppWebAPI/Blazor.WebApp/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Workspace/Arrumando Pro GitHub/CrudBlazorAppWebAPI/Blazor.WebApp/Pages/ProdutosPages/Add.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHV0b3NQYWdlc1xBZGQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Workspace/Arrumando Pro GitHub/CrudBlazorAppWebAPI/Blazor.WebApp/Pages/ProdutosPages/Edit.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHV0b3NQYWdlc1xFZGl0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Workspace/Arrumando Pro GitHub/CrudBlazorAppWebAPI/Blazor.WebApp/Pages/ProdutosPages/ProdutosList.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHV0b3NQYWdlc1xQcm9kdXRvc0xpc3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Workspace/Arrumando Pro GitHub/CrudBlazorAppWebAPI/Blazor.WebApp/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Workspace/Arrumando Pro GitHub/CrudBlazorAppWebAPI/Blazor.WebApp/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Workspace/Arrumando Pro GitHub/CrudBlazorAppWebAPI/Blazor.WebApp/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-pq8mhsozqo
+
+[C:/Workspace/Arrumando Pro GitHub/CrudBlazorAppWebAPI/Blazor.WebApp/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-l09fews7b8

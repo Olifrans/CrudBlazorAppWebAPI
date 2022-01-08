@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "e5d74da8-e55c-4398-8754-1940182c9634": {
+      "ProjectGuid": "e5d74da8-e55c-4398-8754-1940182c9634",
+      "DisplayName": "Blazor.WebAPI",
+      "ColorIndex": 0
+    },
+    "2b2281ca-93d8-4ac5-b1dd-a8d4157fc9e4": {
+      "ProjectGuid": "2b2281ca-93d8-4ac5-b1dd-a8d4157fc9e4",
+      "DisplayName": "WebApp.Blazor.Server",
+      "ColorIndex": 1
+    },
+    "d33ea284-eb1a-4768-9a8b-95767c6f67db": {
+      "ProjectGuid": "d33ea284-eb1a-4768-9a8b-95767c6f67db",
+      "DisplayName": "WebApp.Blazor.Client",
+      "ColorIndex": 2
+    },
+    "0e8c94e0-1afe-4baa-a42f-638052bd36db": {
+      "ProjectGuid": "0e8c94e0-1afe-4baa-a42f-638052bd36db",
+      "DisplayName": "WebApp.Blazor.Shared",
+      "ColorIndex": 3
+    },
+    "3438bc8b-3b55-49f2-9c21-57a7e82bf01e": {
+      "ProjectGuid": "3438bc8b-3b55-49f2-9c21-57a7e82bf01e",
+      "DisplayName": "Blazor.WebApp",
+      "ColorIndex": 4
+    }
+  },
+  "NextColorIndex": 5
+}
